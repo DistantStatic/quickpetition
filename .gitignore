@@ -1,4 +1,4 @@
-#/quickpetition/settings.py
+/quickpetition/settings.py
 *.code-workspace
 db.sqlite3
 media/
