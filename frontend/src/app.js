@@ -30,6 +30,29 @@ import React, { Component } from "react";
         }
         return this.setState({ viewCompleted: false });
       };
+      menuBar = () => {
+        return (
+          <div id="main-menu" class="top-bar-nav">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Petitions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Search</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
+                </li>
+                <li class="nav-item menu-auth">
+                    <a class="nav-link" href="#">Log In</a>
+                </li>
+            </ul>
+        </div>
+        )
+      }
       renderTabList = () => {
         return (
           <div className="my-5 tab-list">
@@ -114,6 +137,7 @@ import React, { Component } from "react";
       render() {
         return (
           <main className="content">
+          {this.menuBar()}
             <h1 className="text-white text-uppercase text-center my-4">Quick Petitions</h1>
             <div className="row ">
               <div className="col-md-6 col-sm-10 mx-auto p-0">

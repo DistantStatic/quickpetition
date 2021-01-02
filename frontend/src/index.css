@@ -3,6 +3,10 @@
     margin-right: 0;
 }
 
+.menu-auth {
+  margin-left:auto;
+}
+
 body {
     margin: 0;
     padding: 0;
