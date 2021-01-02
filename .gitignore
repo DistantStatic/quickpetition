@@ -6,3 +6,4 @@ media/
 */__pycache__/*
 static/admin/
 */migrations/*
+TODO.txt
