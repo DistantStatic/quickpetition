@@ -13,10 +13,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background-color: #282c34;
   }
-  .todo-title {
+  .petition-title {
     cursor: pointer;
   }
-  .completed-todo {
+  .petition-todo {
     text-decoration: line-through;
   }
   .tab-list > span {

@@ -59,8 +59,8 @@ import React, { Component } from "react";
             className="list-group-item d-flex justify-content-between align-items-center"
           >
             <span
-              className={`todo-title mr-2 ${
-                this.state.viewCompleted ? "completed-todo" : ""
+              className={`petition-title mr-2 ${
+                this.state.viewCompleted ? "completed-petition" : ""
               }`}
               title={item.description}
             >
